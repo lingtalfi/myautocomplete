@@ -235,9 +235,38 @@ And here is the jquery code:
  
 Hopefully this example helps you understand how the plugin works.
  
+ 
+Oh yeah and I forgot: my ajax service returns a php array containing the following:
+
+```php
+- products:
+----- (row)
+--------- label 
+--------- ref 
+--------- sale_price 
+--------- attr_string 
+--------- uri_card
+--------- uri_thumb 
+--------- price_type 
+- categories:
+----- (row)
+--------- label 
+--------- slug
+--------- uriCategory
+ 
+         
+``` 
 
 
 
+
+
+History Log
+------------------    
+    
+- 1.0.0 -- 2017-08-26
+
+    - initial commit
 
 
 
