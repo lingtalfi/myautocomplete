@@ -264,6 +264,10 @@ Oh yeah and I forgot: my ajax service returns a php array containing the followi
 History Log
 ------------------    
     
+- 1.1.0 -- 2017-11-13
+
+    - add onLoaderStart and onLoaderEnd callbacks
+
 - 1.0.0 -- 2017-08-26
 
     - initial commit

@@ -173,8 +173,13 @@
                 var strlen = query.length;
                 if (strlen >= o.minChars) {
 
+
+                    o.onLoaderStart();
+
+
                     fetchData(query, function (data) {
 
+                        o.onLoaderEnd();
 
                         if (jPanel) { // use panel goodies?
                             if (o.isEmptyResults(data)) {
@@ -404,7 +409,14 @@
          *      if enter is pressed AND an active item is found,
          *      then the onSelect method (option) is called on the item.
          */
-        useEnterToClickCurrentItem: true
+        useEnterToClickCurrentItem: true,
+        onLoaderStart: function () {
+
+        },
+        onLoaderEnd: function () {
+
+        }
+
     };
 
 
