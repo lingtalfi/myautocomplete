@@ -93,7 +93,7 @@ A list of images appear for products, while the category list contains only simp
 The result on the development website looks like this:
 
 
-[![myautocomplete.png](https://s19.postimg.org/83xaog9cz/myautocomplete.png)](https://postimg.org/image/qjhrlunhb/)
+[![myautocomplete.png](https://i.postimg.cc/HWQK19ff/myautocomplete.png)](https://postimg.cc/bdwLQkYT)
 
 So here is the html code:
 
